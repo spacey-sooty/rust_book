@@ -116,7 +116,7 @@ fn main() {
 
     // more efficient for loop as well
     for number in (1..4).rev() {
-        println!("{number}!");
+        println!("{}!", number);
     }
     println!("LIFTOFF!!!");
 }

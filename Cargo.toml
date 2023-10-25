@@ -1,0 +1,21 @@
+[workspace]
+members = [
+    "backyard",
+    "borrowing",
+    "comments",
+    "control_flow",
+    "enums",
+    "guessing_game",
+    "methods",
+    "struct_example",
+    "variables",
+    "data_types",
+    "functions",
+    "iff",
+    "match_flow",
+    "ownership",
+    "slice",
+    "structs",
+]
+
+resolver = "2"

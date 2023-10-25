@@ -61,4 +61,3 @@ fn no_dangle() -> String {
 
     s
 }
-

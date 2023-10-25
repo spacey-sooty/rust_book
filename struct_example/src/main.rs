@@ -9,12 +9,18 @@ fn main() {
     let width1 = 30;
     let height1 = 50;
 
-    println!("The area of the rectangle is {} square pixels.", area(width1, height1));
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        area(width1, height1)
+    );
 
     // we could also do this using tuple
     let rect = (30, 50);
 
-    println!("The area of the rectangle is {} square pixels.", tuple_area(rect));
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        tuple_area(rect)
+    );
 
     // we could also refactor this with structs to avoid having to explain the fields etc
 
@@ -23,7 +29,10 @@ fn main() {
         height: 50,
     };
 
-    println!("The area of the rectangle is {} square pixels.", struct_area(&rect1));
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        struct_area(&rect1)
+    );
 
     // this would not work originally because it doesn't implement std::fmt::Display
     // println!("The rectangle is {}", rect1);
@@ -49,4 +58,3 @@ fn tuple_area(rect: (u32, u32)) -> u32 {
 fn struct_area(rect: &Rectangle) -> u32 {
     rect.width * rect.height
 }
-

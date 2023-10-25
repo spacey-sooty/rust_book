@@ -1,6 +1,6 @@
 fn main() {
     let guess: u32 = "42".parse().expect("Not a number!");
-    
+
     // floating point types
     let x = 2.0; // f64
     let y: f32 = 3.0; // f32
@@ -50,7 +50,20 @@ fn main() {
     // implied typing here is [i32; 5]
     let a = [1, 2, 3, 4, 5];
 
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
 
     // here we initialise a with 5 elements of 3
     let a = [3; 5];
@@ -58,7 +71,7 @@ fn main() {
     // indexing
     let first = a[0];
     let second = a[1];
-    
+
     fn outside_of_index_example() {
         use std::io;
         let a = [1, 2, 3, 4, 5];
@@ -81,4 +94,3 @@ fn main() {
         println!("The value of the element at index {index} is: {element}");
     }
 }
-

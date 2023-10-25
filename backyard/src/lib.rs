@@ -51,6 +51,5 @@ pub fn eat_at_restaurant() {
     // to see or modify the seasonal fruit that comes with the meal
     // meal.seasonal_fruit = String::from("blueberries");
 
-   hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
 }
-

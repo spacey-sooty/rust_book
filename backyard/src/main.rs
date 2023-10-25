@@ -1,6 +1,6 @@
 use crate::garden::vegetables::Asparagus;
-use std::collections::HashMap;
 use rand::Rng;
+use std::collections::HashMap;
 
 use std::cmp::Ordering;
 
@@ -13,7 +13,6 @@ pub mod garden;
 
 // use std::fmt;
 // use std::io::Result as IoResult;
-
 
 // fn function1() -> fmt::Result {
 //     // --snip--
@@ -31,4 +30,3 @@ fn main() {
     let mut map = HashMap::new();
     map.insert(1, 2);
 }
-

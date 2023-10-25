@@ -36,4 +36,3 @@ fn main() {
     mut_example();
     scope_and_shadowing();
 }
-

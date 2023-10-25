@@ -45,13 +45,12 @@ fn value_in_cents(coin: Coin) -> u8 {
         Coin::Penny => {
             println!("lucky penny");
             5
-        },
+        }
         Coin::Nickel => 5,
         Coin::Dime => 10,
         Coin::Quarter(state) => {
             println!("State quarter from {:?}!", state);
             25
-        },
+        }
     }
 }
-

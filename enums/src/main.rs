@@ -66,4 +66,3 @@ fn main() {
 
 // can use either variant
 fn route(ip_kind: IpAddrKind) {}
-

@@ -43,4 +43,3 @@ fn first_word(s: &String) -> &str {
 }
 
 // there is also a more general slice type
-

@@ -1,3 +1,4 @@
-# rust_book
-Follow along of the Rust Book to improve my understanding and skills in the language!
+The Rust Book
+=============
+My follow along of the Rust book in order to increase my proficiency with the language.
 

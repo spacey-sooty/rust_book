@@ -16,7 +16,7 @@ members = [
     "ownership",
     "slice",
     "structs",
-    "vectors"
+    "vectors",
 ]
 
 resolver = "2"

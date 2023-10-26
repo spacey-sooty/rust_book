@@ -1,4 +1,15 @@
+enum SpreadsheetCell {
+    Int(i32),
+    Float(f64),
+    Text(String),
+}
 fn main() {
+    let row = vec![
+        SpreadsheetCell::Int(3),
+        SpreadsheetCell::Text(String::from("blue")),
+        SpreadsheetCell::Float(10.12),
+    ];
+
     let v: Vec<i32> = Vec::new();
 
     let v = vec![1, 2, 3];
@@ -45,5 +56,10 @@ fn main() {
     let mut v = vec![100, 32, 57];
     for i in &mut v {
         *i += 50;
+    }
+
+    {
+        // dropping a vector drops its elements
+        let _ = vec![1, 2, 3, 4, 5];
     }
 }

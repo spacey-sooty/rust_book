@@ -17,6 +17,7 @@ members = [
     "slice",
     "structs",
     "vectors",
+    "strings",
 ]
 
 resolver = "2"

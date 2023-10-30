@@ -20,6 +20,7 @@ members = [
     "strings",
     "hashmap",
     "panic",
+    "result",
 ]
 
 resolver = "2"

@@ -19,6 +19,7 @@ members = [
     "vectors",
     "strings",
     "hashmap",
+    "panic",
 ]
 
 resolver = "2"

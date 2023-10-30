@@ -43,7 +43,7 @@ fn main() {
 
         if guess < 1 || guess > 100 {
             println!("Guess should be between 1 and 100");
-            continue
+            continue;
         }
 
         match guess.cmp(&secret_number) {

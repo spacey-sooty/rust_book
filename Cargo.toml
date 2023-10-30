@@ -21,6 +21,7 @@ members = [
     "hashmap",
     "panic",
     "result",
+    "generics",
 ]
 
 resolver = "2"
